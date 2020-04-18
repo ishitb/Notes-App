@@ -1,3 +1,4 @@
+
 // Firebase Integration
     firebase.initializeApp({
         apiKey: "AIzaSyBm0JiYrZS6RNVqg8qRCs-doJtrv5rNYYQ",
@@ -9,7 +10,7 @@
         appId: "1:477532013523:web:d7c9a27c450040be"
     });
 
-    var contentRef = firebase.database().ref("content/");
+var contentRef = firebase.database().ref("content/");
 
 
 
@@ -79,7 +80,7 @@ const parent = $("ul");
         $("label").toggleClass("forLabel");
     })
 
-    inputTaken.blur(function(){
+    inputTaken.focusout(function(){
         $("label").toggleClass("forLabel");
     })
 
