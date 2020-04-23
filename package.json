@@ -1,0 +1,22 @@
+{
+  "name": "notes-app",
+  "version": "1.0.0",
+  "description": "Notes App with Firebase Integration",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ishitb/Notes-App.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ishitb/Notes-App/issues"
+  },
+  "homepage": "https://github.com/ishitb/Notes-App#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0"
+  }
+}
